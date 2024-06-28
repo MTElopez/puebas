@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family= Poetsen+One&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+img{
+    width: 100%;
+}
+
+ol{
+    list-style-type: disc;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.5%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.menu > li > a{
+    display: block;
+    text-decoration: none;
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: black;
+}
+
+.menu-vertical li a{
+    display: block;
+}
+
+.menu-vertical li:hover{
+    background-color: rgb(238, 140, 12);
+}
+
+.menu-vertical li a{
+    display: block;
+    color: white;
+}
+
+.menu li:hover .menu-vertical{
+    display: block;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+    text-align: center;
+}
